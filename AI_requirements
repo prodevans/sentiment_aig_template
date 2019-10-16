@@ -1,0 +1,28 @@
+python -m pip install --upgrade pip
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install statsmodels
+pip install xlrd
+#conda install fbprophet
+pip install seaborn
+pip install imblearn
+pip install nltk
+pip install bs4
+pip install tqdm
+pip install -U gensim
+pip install tensorflow
+pip install keras
+python -m pip install wordcloud
+pip install openpyxl
+pip install nltk
+pip install textblob
+pip install dash
+pip install dash-auth
+pip install dash-html-components
+pip install dash-core-components
+pip install dash-table
+pip install plotly_express
+pip install plotly
+pip install pickle-mixin==1.0.2
+pip install --upgrade google-api-python-client 

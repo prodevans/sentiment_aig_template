@@ -1,0 +1,23 @@
+FROM python
+
+#EXPOSE  8050 8080
+
+#COPY . /app
+
+#EXPOSE  8050 8080
+
+RUN mkdir /req
+
+WORKDIR /app
+
+ADD AI_requirements /req/AI_requirements
+#RUN python -m pip install --upgrade pip
+
+RUN chmod +x /req/AI_requirements
+
+RUN /req/AI_requirements
+
+#RUN pip install --upgrade google-api-python-client 
+
+#CMD ["python", "/app/app.py"]
+
