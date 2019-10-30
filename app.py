@@ -95,7 +95,7 @@ app.layout = html.Div([
     html.Div([
         html.H1(children='Welcome to Iventura Platform',
                 style={'textAlign': 'center','color':'#7FDBFF'}),
-        html.H2(children='Sentiment for AIG Insurance Provider',style={'textAlign': 'center','color':'orange'}),
+        html.H2(children='Sentiment for Global Fund Provider',style={'textAlign': 'center','color':'orange'}),
         html.H6(children='Enter text and submit',style={'color':'black'}),
         html.Div([dcc.Input(id='input-box', type='text')],
                  style={'padding': '20px 0px'}),
@@ -221,4 +221,3 @@ def insertIntoExcel(test_value):
 
 if __name__ == '__main__':
     app.run_server(debug=True,host='0.0.0.0')
-

@@ -10,6 +10,8 @@ pip install imblearn
 pip install nltk
 pip install bs4
 pip install tqdm
+#pip install tqdm
+#pip install tqdm
 pip install -U gensim
 pip install tensorflow
 pip install keras
