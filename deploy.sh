@@ -1,6 +1,6 @@
 #cd /opt/app-root/src/sentiment_analysis
 echo "#####################################"
-echo "######Deploying Sentiment Model"
+echo "......Deploying Sentiment Model......"
 echo "#####################################"
 echo "                             "
 git add -A
