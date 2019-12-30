@@ -96,7 +96,7 @@ app.layout = html.Div([
     html.Div([
         html.H1(children='Welcome to Iventura Platform',
                 style={'textAlign': 'center','color':'#7FDBFF'}),
-        html.H2(children='Sentiment for AIG Insurance Provider',style={'textAlign': 'center','color':'orange'}),
+        html.H2(children='Sentiment for Insurance Provider',style={'textAlign': 'center','color':'orange'}),
         html.H6(children='Enter text and submit',style={'color':'black'}),
         html.Div([dcc.Input(id='input-box', type='text')],
                  style={'padding': '20px 0px'}),
